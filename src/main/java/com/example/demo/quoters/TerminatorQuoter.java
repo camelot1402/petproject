@@ -2,6 +2,7 @@ package com.example.demo.quoters;
 
 import jakarta.annotation.PostConstruct;
 
+@Profiling
 public class TerminatorQuoter implements Quoter {
 
     @InjectRandomInt(min = 2, max = 5)
